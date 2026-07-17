@@ -1,0 +1,63 @@
+name: Deploy Backend to Google Cloud Run
+
+on:
+  push:
+    branches:
+      - main 
+
+env:
+  REGION: us-central1 
+  SERVICE_NAME: airgrab-agent-backend
+  IMAGE: us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/airgrab-repo/airgrab-agent:latest
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    # 1. REQUIRED: Add these permissions so GitHub can generate an OIDC token
+    permissions:
+      contents: 'read'
+      id-token: 'write' 
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: 'maven' 
+
+    - name: Build with Maven
+      run: ./mvnw -B package -DskipTests
+
+    # 2. UPDATED: Authenticate using Workload Identity Federation
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v2
+      with:
+        # Instead of credentials_json, use these two variables:
+        workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+        service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v2
+
+    - name: Configure Docker for Artifact Registry
+      run: gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
+
+    - name: Build and Push Docker Image
+      run: |
+        docker build -t ${{ env.IMAGE }} .
+        docker push ${{ env.IMAGE }}
+
+    - name: Deploy to Cloud Run
+      uses: google-github-actions/deploy-cloudrun@v2
+      with:
+        service: ${{ env.SERVICE_NAME }}
+        region: ${{ env.REGION }}
+        image: ${{ env.IMAGE }}
+        env_vars: |
+          OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+        flags: '--allow-unauthenticated'

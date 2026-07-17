@@ -1,0 +1,452 @@
+[
+  {
+    "id": "rest_01",
+    "restaurantName": "The Iron Kitchen",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d101", "dishName": "Guntur Chicken Protein Bowl", "price": 349, "macros": { "protein": "52g", "carbs": "12g", "calories": 540 }, "tags": ["high-protein", "post-workout", "spicy"] },
+      { "dishId": "d102", "dishName": "Lean Mutton Keema Platter", "price": 429, "macros": { "protein": "45g", "carbs": "5g", "calories": 480 }, "tags": ["high-protein", "keto-friendly", "mutton"] }
+    ]
+  },
+  {
+    "id": "rest_02",
+    "restaurantName": "Megheya Foods",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d201", "dishName": "Soulful Monsoon Mutton Soup", "price": 289, "macros": { "protein": "28g", "carbs": "8g", "calories": 310 }, "tags": ["rainy-day", "soulful", "warm"] },
+      { "dishId": "d202", "dishName": "Dark Chocolate Fudge Brownie", "price": 199, "macros": { "protein": "5g", "carbs": "45g", "calories": 550 }, "tags": ["sweet-tooth", "period-pain", "dessert"] }
+    ]
+  },
+  {
+    "id": "rest_03",
+    "restaurantName": "Nawab's Cloud Kitchen",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d301", "dishName": "Almond Crust Paneer Tikka", "price": 299, "macros": { "protein": "25g", "carbs": "6g", "calories": 420 }, "tags": ["keto-friendly", "vegetarian", "low-carb"] },
+      { "dishId": "d302", "dishName": "Classic Chicken Dum Biryani", "price": 350, "macros": { "protein": "35g", "carbs": "60g", "calories": 650 }, "tags": ["mughlai", "heavy", "lunch"] }
+    ]
+  },
+  {
+    "id": "rest_04",
+    "restaurantName": "Macro Meals BLR",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d401", "dishName": "Grilled Fish & Quinoa", "price": 450, "macros": { "protein": "42g", "carbs": "30g", "calories": 410 }, "tags": ["high-protein", "fish", "clean-eating"] },
+      { "dishId": "d402", "dishName": "Zero-Carb Chicken Skewers", "price": 280, "macros": { "protein": "38g", "carbs": "2g", "calories": 250 }, "tags": ["keto", "snack", "post-workout"] }
+    ]
+  },
+  {
+    "id": "rest_05",
+    "restaurantName": "Biryani Bazaar",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d501", "dishName": "Mutton Rogan Josh Biryani", "price": 420, "macros": { "protein": "32g", "carbs": "55g", "calories": 720 }, "tags": ["mughlai", "spicy", "heavy"] },
+      { "dishId": "d502", "dishName": "Egg Curry Rice Bowl", "price": 190, "macros": { "protein": "18g", "carbs": "45g", "calories": 450 }, "tags": ["comfort-food", "budget", "eggs"] }
+    ]
+  },
+  {
+    "id": "rest_06",
+    "restaurantName": "FitBites Kitchen",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d601", "dishName": "Tofu Protein Scramble", "price": 220, "macros": { "protein": "24g", "carbs": "10g", "calories": 300 }, "tags": ["vegan", "breakfast", "high-protein"] },
+      { "dishId": "d602", "dishName": "Whey Protein Pancakes", "price": 250, "macros": { "protein": "30g", "carbs": "20g", "calories": 350 }, "tags": ["sweet", "post-workout", "breakfast"] }
+    ]
+  },
+  {
+    "id": "rest_07",
+    "restaurantName": "Monsoon Cravings",
+    "location": "BTM Layout, Bangalore",
+    "menu": [
+      { "dishId": "d701", "dishName": "Hot Garlic Chicken Soup", "price": 180, "macros": { "protein": "20g", "carbs": "15g", "calories": 210 }, "tags": ["rainy-day", "soup", "comfort"] },
+      { "dishId": "d702", "dishName": "Crispy Paneer Pakoda", "price": 150, "macros": { "protein": "12g", "carbs": "25g", "calories": 400 }, "tags": ["rainy-day", "snack", "fried"] }
+    ]
+  },
+  {
+    "id": "rest_08",
+    "restaurantName": "The Royal Dastarkhwan",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d801", "dishName": "Nihari with Khameeri Roti", "price": 480, "macros": { "protein": "35g", "carbs": "45g", "calories": 680 }, "tags": ["mughlai", "mutton", "soulful"] },
+      { "dishId": "d802", "dishName": "Chicken Malai Tikka", "price": 320, "macros": { "protein": "30g", "carbs": "8g", "calories": 450 }, "tags": ["keto-friendly", "creamy", "appetizer"] }
+    ]
+  },
+  {
+    "id": "rest_09",
+    "restaurantName": "Keto Kingdom",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d901", "dishName": "Cauliflower Rice Biryani", "price": 290, "macros": { "protein": "15g", "carbs": "12g", "calories": 320 }, "tags": ["keto", "vegetarian", "low-carb"] },
+      { "dishId": "d902", "dishName": "Butter Garlic Prawns", "price": 390, "macros": { "protein": "28g", "carbs": "2g", "calories": 340 }, "tags": ["keto", "seafood", "high-protein"] }
+    ]
+  },
+  {
+    "id": "rest_10",
+    "restaurantName": "Andhra Spice Route",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d1001", "dishName": "Guntur Chilli Chicken", "price": 270, "macros": { "protein": "35g", "carbs": "10g", "calories": 410 }, "tags": ["spicy", "chicken", "south-indian"] },
+      { "dishId": "d1002", "dishName": "Paneer Pepper Fry", "price": 240, "macros": { "protein": "18g", "carbs": "12g", "calories": 380 }, "tags": ["vegetarian", "spicy", "snack"] }
+    ]
+  },
+  {
+    "id": "rest_11",
+    "restaurantName": "Healthy Habits Cafe",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d1101", "dishName": "Grilled Chicken Caesar Salad", "price": 310, "macros": { "protein": "35g", "carbs": "8g", "calories": 320 }, "tags": ["salad", "low-carb", "clean-eating"] },
+      { "dishId": "d1102", "dishName": "Avocado & Egg Toast", "price": 260, "macros": { "protein": "14g", "carbs": "22g", "calories": 350 }, "tags": ["breakfast", "healthy-fats", "vegetarian"] }
+    ]
+  },
+  {
+    "id": "rest_12",
+    "restaurantName": "Sultan's Dine",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d1201", "dishName": "Mutton Galouti Kebab", "price": 450, "macros": { "protein": "28g", "carbs": "10g", "calories": 520 }, "tags": ["mughlai", "mutton", "melt-in-mouth"] },
+      { "dishId": "d1202", "dishName": "Chicken Reshmi Kebab", "price": 340, "macros": { "protein": "32g", "carbs": "5g", "calories": 380 }, "tags": ["keto-friendly", "high-protein", "chicken"] }
+    ]
+  },
+  {
+    "id": "rest_13",
+    "restaurantName": "The Comfort Bowl",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d1301", "dishName": "Creamy Mushroom Risotto", "price": 360, "macros": { "protein": "12g", "carbs": "45g", "calories": 520 }, "tags": ["comfort-food", "vegetarian", "rainy-day"] },
+      { "dishId": "d1302", "dishName": "Mac & Cheese Bowl", "price": 290, "macros": { "protein": "15g", "carbs": "50g", "calories": 600 }, "tags": ["period-pain", "heavy", "cheese"] }
+    ]
+  },
+  {
+    "id": "rest_14",
+    "restaurantName": "Lean Gains Diner",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d1401", "dishName": "Steak & Sweet Potato", "price": 550, "macros": { "protein": "45g", "carbs": "35g", "calories": 510 }, "tags": ["post-workout", "high-protein", "beef"] },
+      { "dishId": "d1402", "dishName": "Egg White Omelette", "price": 180, "macros": { "protein": "25g", "carbs": "2g", "calories": 120 }, "tags": ["keto", "breakfast", "low-calorie"] }
+    ]
+  },
+  {
+    "id": "rest_15",
+    "restaurantName": "Spice Symphony",
+    "location": "BTM Layout, Bangalore",
+    "menu": [
+      { "dishId": "d1501", "dishName": "Chettinad Fish Curry", "price": 380, "macros": { "protein": "32g", "carbs": "12g", "calories": 350 }, "tags": ["south-indian", "fish", "spicy"] },
+      { "dishId": "d1502", "dishName": "Chicken Ghee Roast", "price": 330, "macros": { "protein": "30g", "carbs": "8g", "calories": 480 }, "tags": ["keto-friendly", "rich", "chicken"] }
+    ]
+  },
+  {
+    "id": "rest_16",
+    "restaurantName": "Urban Salads",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d1601", "dishName": "Quinoa Paneer Salad", "price": 280, "macros": { "protein": "18g", "carbs": "25g", "calories": 320 }, "tags": ["vegetarian", "healthy", "light"] },
+      { "dishId": "d1602", "dishName": "Greek Chicken Salad", "price": 310, "macros": { "protein": "30g", "carbs": "10g", "calories": 280 }, "tags": ["keto", "high-protein", "clean"] }
+    ]
+  },
+  {
+    "id": "rest_17",
+    "restaurantName": "The Biryani Project",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d1701", "dishName": "Hyderabadi Mutton Dum Biryani", "price": 400, "macros": { "protein": "35g", "carbs": "55g", "calories": 680 }, "tags": ["mughlai", "mutton", "classic"] },
+      { "dishId": "d1702", "dishName": "Paneer Tikka Biryani", "price": 320, "macros": { "protein": "20g", "carbs": "60g", "calories": 550 }, "tags": ["vegetarian", "biryani", "heavy"] }
+    ]
+  },
+  {
+    "id": "rest_18",
+    "restaurantName": "Soup & Soul",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d1801", "dishName": "Clear Chicken Broth", "price": 160, "macros": { "protein": "15g", "carbs": "5g", "calories": 110 }, "tags": ["rainy-day", "low-calorie", "comfort"] },
+      { "dishId": "d1802", "dishName": "Roasted Tomato Basil Soup", "price": 180, "macros": { "protein": "4g", "carbs": "18g", "calories": 150 }, "tags": ["vegetarian", "warm", "vegan"] }
+    ]
+  },
+  {
+    "id": "rest_19",
+    "restaurantName": "Muscle Chef",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d1901", "dishName": "Grilled Chicken Breast with Veggies", "price": 350, "macros": { "protein": "45g", "carbs": "15g", "calories": 380 }, "tags": ["post-workout", "high-protein", "clean"] },
+      { "dishId": "d1902", "dishName": "Salmon Steak", "price": 550, "macros": { "protein": "40g", "carbs": "5g", "calories": 420 }, "tags": ["keto", "fish", "premium"] }
+    ]
+  },
+  {
+    "id": "rest_20",
+    "restaurantName": "Mughal Darbar",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d2001", "dishName": "Chicken Changezi", "price": 360, "macros": { "protein": "32g", "carbs": "12g", "calories": 550 }, "tags": ["mughlai", "spicy", "chicken"] },
+      { "dishId": "d2002", "dishName": "Mutton Seekh Kebab", "price": 310, "macros": { "protein": "28g", "carbs": "4g", "calories": 390 }, "tags": ["keto", "mutton", "starter"] }
+    ]
+  },
+  {
+    "id": "rest_21",
+    "restaurantName": "Green Cravings",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d2101", "dishName": "Vegan Protein Bowl", "price": 300, "macros": { "protein": "22g", "carbs": "35g", "calories": 410 }, "tags": ["vegan", "plant-based", "healthy"] },
+      { "dishId": "d2102", "dishName": "Zucchini Noodles with Pesto", "price": 320, "macros": { "protein": "8g", "carbs": "12g", "calories": 250 }, "tags": ["keto", "vegetarian", "low-carb"] }
+    ]
+  },
+  {
+    "id": "rest_22",
+    "restaurantName": "Tandoor Tales",
+    "location": "BTM Layout, Bangalore",
+    "menu": [
+      { "dishId": "d2201", "dishName": "Tandoori Chicken (Half)", "price": 290, "macros": { "protein": "45g", "carbs": "2g", "calories": 350 }, "tags": ["high-protein", "keto-friendly", "roasted"] },
+      { "dishId": "d2202", "dishName": "Paneer Malai Tikka", "price": 260, "macros": { "protein": "18g", "carbs": "8g", "calories": 420 }, "tags": ["vegetarian", "creamy", "keto"] }
+    ]
+  },
+  {
+    "id": "rest_23",
+    "restaurantName": "Bakers & Blends",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d2301", "dishName": "Warm Apple Pie", "price": 220, "macros": { "protein": "4g", "carbs": "45g", "calories": 400 }, "tags": ["sweet-tooth", "comfort", "dessert"] },
+      { "dishId": "d2302", "dishName": "Hot Chocolate with Marshmallows", "price": 180, "macros": { "protein": "6g", "carbs": "35g", "calories": 320 }, "tags": ["rainy-day", "beverage", "soulful"] }
+    ]
+  },
+  {
+    "id": "rest_24",
+    "restaurantName": "The Protein Spot",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d2401", "dishName": "Minced Chicken Lettuce Wraps", "price": 270, "macros": { "protein": "32g", "carbs": "6g", "calories": 280 }, "tags": ["keto", "low-carb", "snack"] },
+      { "dishId": "d2402", "dishName": "Protein Berry Smoothie", "price": 210, "macros": { "protein": "25g", "carbs": "20g", "calories": 300 }, "tags": ["post-workout", "drink", "sweet"] }
+    ]
+  },
+  {
+    "id": "rest_25",
+    "restaurantName": "Andhra Meals Co.",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d2501", "dishName": "Chicken Fry Piece Biryani", "price": 310, "macros": { "protein": "35g", "carbs": "50g", "calories": 600 }, "tags": ["spicy", "biryani", "chicken"] },
+      { "dishId": "d2502", "dishName": "Mutton Pepper Roast", "price": 380, "macros": { "protein": "32g", "carbs": "8g", "calories": 450 }, "tags": ["keto-friendly", "spicy", "mutton"] }
+    ]
+  },
+  {
+    "id": "rest_26",
+    "restaurantName": "Fit Wok",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d2601", "dishName": "Stir-Fried Chicken & Broccoli", "price": 290, "macros": { "protein": "38g", "carbs": "12g", "calories": 320 }, "tags": ["high-protein", "clean-eating", "asian"] },
+      { "dishId": "d2602", "dishName": "Edamame Garlic Toss", "price": 220, "macros": { "protein": "15g", "carbs": "10g", "calories": 200 }, "tags": ["vegan", "snack", "healthy"] }
+    ]
+  },
+  {
+    "id": "rest_27",
+    "restaurantName": "Awadhi Flavors",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d2701", "dishName": "Murgh Makhani", "price": 340, "macros": { "protein": "28g", "carbs": "15g", "calories": 580 }, "tags": ["mughlai", "rich", "chicken"] },
+      { "dishId": "d2702", "dishName": "Shahi Tukda", "price": 190, "macros": { "protein": "6g", "carbs": "45g", "calories": 480 }, "tags": ["dessert", "sweet-tooth", "heavy"] }
+    ]
+  },
+  {
+    "id": "rest_28",
+    "restaurantName": "Rain or Shine Cafe",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d2801", "dishName": "Masala Chai & Samosa Combo", "price": 150, "macros": { "protein": "6g", "carbs": "35g", "calories": 380 }, "tags": ["rainy-day", "comfort", "snack"] },
+      { "dishId": "d2802", "dishName": "Chicken Noodle Soup", "price": 190, "macros": { "protein": "18g", "carbs": "25g", "calories": 260 }, "tags": ["soulful", "warm", "light"] }
+    ]
+  },
+  {
+    "id": "rest_29",
+    "restaurantName": "Keto Crust Pizza",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d2901", "dishName": "Almond Flour Chicken Pizza", "price": 450, "macros": { "protein": "35g", "carbs": "8g", "calories": 520 }, "tags": ["keto", "pizza", "high-protein"] },
+      { "dishId": "d2902", "dishName": "Cheese Crust Paneer Pizza", "price": 420, "macros": { "protein": "28g", "carbs": "10g", "calories": 580 }, "tags": ["keto", "vegetarian", "cheese"] }
+    ]
+  },
+  {
+    "id": "rest_30",
+    "restaurantName": "The Mutton House",
+    "location": "BTM Layout, Bangalore",
+    "menu": [
+      { "dishId": "d3001", "dishName": "Mutton Chops Masala", "price": 410, "macros": { "protein": "35g", "carbs": "12g", "calories": 540 }, "tags": ["mutton", "spicy", "heavy"] },
+      { "dishId": "d3002", "dishName": "Brain Fry", "price": 320, "macros": { "protein": "18g", "carbs": "2g", "calories": 310 }, "tags": ["keto", "exotic", "snack"] }
+    ]
+  },
+  {
+    "id": "rest_31",
+    "restaurantName": "Wrap & Roll",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d3101", "dishName": "Whole Wheat Chicken Shawarma", "price": 220, "macros": { "protein": "28g", "carbs": "35g", "calories": 420 }, "tags": ["quick-bite", "chicken", "balanced"] },
+      { "dishId": "d3102", "dishName": "Lettuce Wrapped Falafel", "price": 190, "macros": { "protein": "12g", "carbs": "15g", "calories": 280 }, "tags": ["vegan", "keto-friendly", "light"] }
+    ]
+  },
+  {
+    "id": "rest_32",
+    "restaurantName": "Desi Macros",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d3201", "dishName": "Palak Paneer (Less Oil)", "price": 260, "macros": { "protein": "20g", "carbs": "10g", "calories": 320 }, "tags": ["vegetarian", "healthy", "iron-rich"] },
+      { "dishId": "d3202", "dishName": "Soya Chaap Tikka", "price": 240, "macros": { "protein": "25g", "carbs": "15g", "calories": 300 }, "tags": ["vegan-protein", "tandoori", "snack"] }
+    ]
+  },
+  {
+    "id": "rest_33",
+    "restaurantName": "Nawab's Legacy",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d3301", "dishName": "Awadhi Mutton Biryani", "price": 450, "macros": { "protein": "32g", "carbs": "60g", "calories": 710 }, "tags": ["mughlai", "mutton", "premium"] },
+      { "dishId": "d3302", "dishName": "Phirni", "price": 160, "macros": { "protein": "5g", "carbs": "35g", "calories": 290 }, "tags": ["dessert", "sweet", "mughlai"] }
+    ]
+  },
+  {
+    "id": "rest_34",
+    "restaurantName": "The Salad Bar",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d3401", "dishName": "Tuna Bean Salad", "price": 320, "macros": { "protein": "35g", "carbs": "25g", "calories": 380 }, "tags": ["fish", "high-protein", "clean"] },
+      { "dishId": "d3402", "dishName": "Boiled Egg & Spinach Salad", "price": 210, "macros": { "protein": "18g", "carbs": "10g", "calories": 240 }, "tags": ["keto-friendly", "breakfast", "light"] }
+    ]
+  },
+  {
+    "id": "rest_35",
+    "restaurantName": "Cozy Corners",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d3501", "dishName": "Grilled Cheese Sandwich", "price": 200, "macros": { "protein": "15g", "carbs": "40g", "calories": 480 }, "tags": ["comfort", "vegetarian", "rainy-day"] },
+      { "dishId": "d3502", "dishName": "Tomato Basil Soup", "price": 160, "macros": { "protein": "4g", "carbs": "20g", "calories": 180 }, "tags": ["soulful", "warm", "vegan"] }
+    ]
+  },
+  {
+    "id": "rest_36",
+    "restaurantName": "Fit Fuel Station",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d3601", "dishName": "Grilled Chicken & Brown Rice", "price": 310, "macros": { "protein": "40g", "carbs": "45g", "calories": 480 }, "tags": ["post-workout", "balanced", "chicken"] },
+      { "dishId": "d3602", "dishName": "Cottage Cheese Steak", "price": 280, "macros": { "protein": "22g", "carbs": "8g", "calories": 340 }, "tags": ["vegetarian", "keto-friendly", "protein"] }
+    ]
+  },
+  {
+    "id": "rest_37",
+    "restaurantName": "Biryani Brothers",
+    "location": "BTM Layout, Bangalore",
+    "menu": [
+      { "dishId": "d3701", "dishName": "Chicken Donne Biryani", "price": 240, "macros": { "protein": "28g", "carbs": "55g", "calories": 620 }, "tags": ["local", "biryani", "spicy"] },
+      { "dishId": "d3702", "dishName": "Mutton Kheema Balls", "price": 220, "macros": { "protein": "25g", "carbs": "10g", "calories": 350 }, "tags": ["snack", "mutton", "high-protein"] }
+    ]
+  },
+  {
+    "id": "rest_38",
+    "restaurantName": "Ocean's Catch",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d3801", "dishName": "Mangalorean Fish Curry", "price": 390, "macros": { "protein": "30g", "carbs": "15g", "calories": 420 }, "tags": ["fish", "south-indian", "spicy"] },
+      { "dishId": "d3802", "dishName": "Tawa Fried Seer Fish", "price": 450, "macros": { "protein": "35g", "carbs": "5g", "calories": 380 }, "tags": ["keto", "fish", "high-protein"] }
+    ]
+  },
+  {
+    "id": "rest_39",
+    "restaurantName": "Sweet Serenity",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d3901", "dishName": "Nutella Waffles", "price": 250, "macros": { "protein": "8g", "carbs": "55g", "calories": 520 }, "tags": ["sweet-tooth", "comfort", "dessert"] },
+      { "dishId": "d3902", "dishName": "Keto Cheesecake", "price": 320, "macros": { "protein": "12g", "carbs": "6g", "calories": 410 }, "tags": ["keto", "dessert", "low-carb"] }
+    ]
+  },
+  {
+    "id": "rest_40",
+    "restaurantName": "Protein Bakehouse",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d4001", "dishName": "High Protein Banana Bread", "price": 220, "macros": { "protein": "15g", "carbs": "25g", "calories": 280 }, "tags": ["snack", "sweet", "post-workout"] },
+      { "dishId": "d4002", "dishName": "Chicken Keema Puff", "price": 140, "macros": { "protein": "18g", "carbs": "20g", "calories": 320 }, "tags": ["quick-bite", "chicken", "snack"] }
+    ]
+  },
+  {
+    "id": "rest_41",
+    "restaurantName": "Mughlai Magic",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d4101", "dishName": "Chicken Tikka Masala", "price": 340, "macros": { "protein": "35g", "carbs": "15g", "calories": 490 }, "tags": ["mughlai", "chicken", "rich"] },
+      { "dishId": "d4102", "dishName": "Paneer Butter Masala", "price": 300, "macros": { "protein": "18g", "carbs": "20g", "calories": 520 }, "tags": ["vegetarian", "comfort", "curry"] }
+    ]
+  },
+  {
+    "id": "rest_42",
+    "restaurantName": "The Fit Grill",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d4201", "dishName": "Grilled Lemon Herb Chicken", "price": 330, "macros": { "protein": "42g", "carbs": "4g", "calories": 310 }, "tags": ["keto", "high-protein", "clean"] },
+      { "dishId": "d4202", "dishName": "Grilled Paneer & Veggies", "price": 290, "macros": { "protein": "22g", "carbs": "12g", "calories": 350 }, "tags": ["vegetarian", "healthy", "grill"] }
+    ]
+  },
+  {
+    "id": "rest_43",
+    "restaurantName": "Rainy Day Ramen",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d4301", "dishName": "Spicy Chicken Ramen", "price": 420, "macros": { "protein": "25g", "carbs": "55g", "calories": 580 }, "tags": ["rainy-day", "soulful", "asian"] },
+      { "dishId": "d4302", "dishName": "Miso Tofu Bowl", "price": 380, "macros": { "protein": "18g", "carbs": "45g", "calories": 420 }, "tags": ["vegan", "soup", "comfort"] }
+    ]
+  },
+  {
+    "id": "rest_44",
+    "restaurantName": "Zero Guilt Bites",
+    "location": "Jayanagar, Bangalore",
+    "menu": [
+      { "dishId": "d4401", "dishName": "Air-Fried Chicken Tenders", "price": 270, "macros": { "protein": "35g", "carbs": "10g", "calories": 290 }, "tags": ["high-protein", "low-fat", "snack"] },
+      { "dishId": "d4402", "dishName": "Baked Sweet Potato Fries", "price": 160, "macros": { "protein": "3g", "carbs": "35g", "calories": 180 }, "tags": ["vegan", "healthy-carbs", "side"] }
+    ]
+  },
+  {
+    "id": "rest_45",
+    "restaurantName": "The Egg Cellent Cafe",
+    "location": "BTM Layout, Bangalore",
+    "menu": [
+      { "dishId": "d4501", "dishName": "Masala Omelette with Multigrain", "price": 150, "macros": { "protein": "16g", "carbs": "25g", "calories": 320 }, "tags": ["breakfast", "healthy", "eggs"] },
+      { "dishId": "d4502", "dishName": "Egg Bhurji Keto Bowl", "price": 180, "macros": { "protein": "20g", "carbs": "5g", "calories": 260 }, "tags": ["keto", "eggs", "high-protein"] }
+    ]
+  },
+  {
+    "id": "rest_46",
+    "restaurantName": "Dakshin Delights",
+    "location": "Gottigere, Bangalore",
+    "menu": [
+      { "dishId": "d4601", "dishName": "Mutton Sukka", "price": 380, "macros": { "protein": "35g", "carbs": "8g", "calories": 480 }, "tags": ["south-indian", "mutton", "keto-friendly"] },
+      { "dishId": "d4602", "dishName": "Chicken Kothu Parotta", "price": 260, "macros": { "protein": "22g", "carbs": "50g", "calories": 550 }, "tags": ["street-food", "heavy", "chicken"] }
+    ]
+  },
+  {
+    "id": "rest_47",
+    "restaurantName": "Macro Balance Kitchen",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d4701", "dishName": "Chicken Quinoa Meatballs", "price": 320, "macros": { "protein": "38g", "carbs": "25g", "calories": 410 }, "tags": ["balanced", "high-protein", "meal-prep"] },
+      { "dishId": "d4702", "dishName": "Paneer & Black Bean Salad", "price": 270, "macros": { "protein": "22g", "carbs": "30g", "calories": 380 }, "tags": ["vegetarian", "fiber", "salad"] }
+    ]
+  },
+  {
+    "id": "rest_48",
+    "restaurantName": "Biryani Central",
+    "location": "HSR Layout, Bangalore",
+    "menu": [
+      { "dishId": "d4801", "dishName": "Kolkata Chicken Biryani", "price": 320, "macros": { "protein": "30g", "carbs": "65g", "calories": 680 }, "tags": ["biryani", "comfort", "potato"] },
+      { "dishId": "d4802", "dishName": "Fish Tikka Kebab", "price": 360, "macros": { "protein": "32g", "carbs": "4g", "calories": 310 }, "tags": ["keto", "seafood", "starter"] }
+    ]
+  },
+  {
+    "id": "rest_49",
+    "restaurantName": "The Warm Mug",
+    "location": "Koramangala, Bangalore",
+    "menu": [
+      { "dishId": "d4901", "dishName": "Ginger Lemon Honey Tea", "price": 120, "macros": { "protein": "0g", "carbs": "15g", "calories": 60 }, "tags": ["rainy-day", "soothing", "beverage"] },
+      { "dishId": "d4902", "dishName": "Warm Banana Walnut Muffin", "price": 160, "macros": { "protein": "5g", "carbs": "35g", "calories": 320 }, "tags": ["sweet-tooth", "comfort", "snack"] }
+    ]
+  },
+  {
+    "id": "rest_50",
+    "restaurantName": "Ultimate Protein",
+    "location": "JP Nagar, Bangalore",
+    "menu": [
+      { "dishId": "d5001", "dishName": "Mega Mutton & Egg Bowl", "price": 490, "macros": { "protein": "55g", "carbs": "10g", "calories": 620 }, "tags": ["post-workout", "keto", "heavy-lifter"] },
+      { "dishId": "d5002", "dishName": "Double Chicken Breast Platter", "price": 420, "macros": { "protein": "65g", "carbs": "5g", "calories": 450 }, "tags": ["high-protein", "keto", "lean-gains"] }
+    ]
+  }
+]

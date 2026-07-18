@@ -68,6 +68,30 @@ public class AgentCommerceController {
         }
     }
 
+
+    @PostMapping("/process-text")
+    public ResponseEntity<?> processTextRequest(@RequestBody Map<String, String> payload) {
+        try {
+            // STEP 1: Extract the text from the JSON payload
+            String text = payload.get("text");
+            System.out.println("Text Input: " + text);
+
+            if (text == null || text.trim().isEmpty()) {
+                return ResponseEntity.badRequest().body(Map.of("error", "Text cannot be empty"));
+            }
+
+            // STEP 2: Feed it directly to the exact same LangChain4j agent!
+            CartResponse cart = orderAgent.processOrder(text, menuData);
+
+            // STEP 3: Return the structured cart
+            return ResponseEntity.ok(cart);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.internalServerError().body(Map.of("error", e.getMessage()));
+        }
+    }
+
     // --- Helper Methods ---
 
     private String transcribeAudio(MultipartFile file) throws Exception {

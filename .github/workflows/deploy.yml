@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main 
+  workflow-dispatch:
+      
 
 env:
   REGION: us-central1 
